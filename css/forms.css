@@ -1,0 +1,103 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url("../img/galaxy.jpg");
+     
+        }
+  .wrapper {
+      width: 80%;
+      margin: 0 auto;
+      padding: 1em;
+      display: flex;
+      flex-flow: row nowrap;
+      background-color: rgb(44, 226, 44);
+  }
+  p, [for="abtype"] {
+      margin-bottom: 0;
+      margin-top: 2rem;
+  }
+
+  h1, legend, h3, button{
+      font-family: 'Architects Daughter', cursive;
+  }
+  section {
+      flex-basis: 57%;
+      margin-right: 10%;
+  }
+  aside {
+      flex-basis: 33%;
+  }
+
+fieldset{
+      /*Jazzed up lines*/
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+  }
+
+  legend{
+      font-weight: bold;
+      font-size: 1.3rem;
+      margin-top: 1.5rem;
+      margin-bottom:1rem;
+      }
+    
+      label{
+          /*Move fields vertically on the page*/
+          display:block;
+          padding-bottom: 1rem;
+      }
+      textarea{
+          /*Make text area larger*/
+          height: 10rem;
+          padding: 1rem
+      }
+
+      select{
+          /*Make font bigger*/
+          font-size: 1rem;
+      }
+
+      button{
+        /*makes it larger*/  
+        font-size: 1rem;
+        /*Gives room*/
+        margin: 2rem,0;
+        background-color: #bb342f;
+        color: white;
+        /*change 3D effect*/
+        border: none;
+        /*make bigger*/
+        padding: 0.5rem 1rem;
+        /*Same rounded corners as on the labels*/
+        border-radius: 10px;
+      }
+      
+      /*Button  Hover State*/
+      button:hover {
+          background-color: #9a2b27;
+      }
+
+/*select all inputs except the radio buttons and the checkboxes and for the textarea*/
+      input:not([type="radio"]):not([type="checkbox"]), textarea, select {
+        border: 0px solid red;
+        /*change from inline to block to make formatting easier*/
+        display:block;
+        margin-bottom:2rem;
+        width: 20rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        padding: 0 1rem;
+        /*round corners and remove 3d effect border*/
+        border-radius: 10px;
+        border: none;
+
+      }
+      
