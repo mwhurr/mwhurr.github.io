@@ -1,0 +1,102 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 2:44:20 Feb 3, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 23:37:25 Feb 4, 2013.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+html, body {background-color: #033a71;}
+
+body {margin: 50px;}
+
+body, td, div, p {font-family: Verdana, Arial, Sans-Serif; font-size: 12px; color: #32406b; line-height: 18px;}
+
+form {margin: 0px; padding: 0px;}
+
+img {border: 0px;}
+
+td {vertical-align: top;}
+
+hr {height: 1px; border-style: solid; border-width: 0px 0px 1px 0px;}
+
+h1 {font-size: 12px;}
+h2 {font-size: 12px;}
+
+a {color: #d55d45;}
+a:hover {color: #033a71;}
+
+a.more {color: #32406b; font-weight: bold; font-size: 10px;}
+
+/* General */
+.clearBoth {clear: both; height: 0px; font-size: 1px; line-height: 0px; display: block;}
+
+.noMarginBefore {margin-top: 0px;}
+.noMarginAfter {margin-bottom: 0px;}
+
+.grey {color: #606362;}
+
+/* Lists */
+ul.inline {margin: 0px; padding: 0px; list-style-type: none;}
+ul.inline li {display: inline;}
+
+ul.list {margin: 0px; padding: 0px; list-style-type: none;}
+ul.list li {background: url(http://msolaw.com/images/bullet.gif) no-repeat 0px 7px; padding: 0px 0px 20px 10px;}
+
+ul.clientList {margin: 0px; padding: 0px; list-style-type: none;}
+ul.clientList li {padding: 0px 0px 10px 0px;}
+
+ul.documentList li {padding: 0px 0px 5px 10px;}
+
+#master {width: 802px; margin: auto; background: #fff url(http://msolaw.com/images/bar-bg.gif) repeat-y;}
+
+#header {height: 164px; background: url(http://msolaw.com/images/header-bg.gif) repeat-y right top;}
+#header img {float: left; padding: 20px 0px 0px 160px;}
+#header p {float: left; padding: 90px 0px 0px 150px; font-size: 14px; font-weight: bold; color: #32406b;}
+
+#image img {display: block;}
+
+#body {background: url(http://msolaw.com/images/body-bg.gif) repeat-y 119px 0px; padding: 0px 0px 20px 0px;}
+
+#content {float: left; width: 490px; padding: 27px 0px 0px 0px;}
+#content p {margin-top: 0px;}
+
+/* QuickMenu Core CSS (Do not modify) */
+.qmclear {font-size:1px;height:0px;width:0px;clear:left;line-height:0px;display:block;}.qmmc {position:relative;}.qmmc a {float:left;display:block;white-space:nowrap;}.qmmc div a {float:none;}.qmmc div {visibility:hidden;position:absolute;}
+/* End QuickMenu Core CSS */
+
+/* Nav */
+#nav {float: left; width: 140px; padding: 27px 0px 0px 0px;}
+#nav ul {margin: 0px; padding: 0px 0px 0px 22px; list-style-type: none;}
+#nav ul li.home {padding: 0px 0px 0px 10px;}
+#nav ul li.home a {font-size: 11px; color: #fff;}
+
+/*
+#nav ul li {display: block; width: 118px; background-repeat: no-repeat;}
+#nav ul li a {display: block; width: 118px; height: 30px; text-decoration: none;}
+#nav ul li a span {visibility: hidden; width: 118px; height: 30px;}
+
+li.practiceAreas, li.practiceAreas a {height: 35px; background-image: url(http://msolaw.com/images/nav/practice-areas.gif);}
+li.practiceAreas a:hover {background-image: url(http://msolaw.com/images/nav/practice-areas-on.gif);}
+li.bios, li.bios a {height: 37px; background-image: url(http://msolaw.com/images/nav/bios.gif);}
+li.bios a:hover {background-image: url(http://msolaw.com/images/nav/bios-over.gif);}
+li.clients, li.clients a {height: 36px; background-image: url(http://msolaw.com/images/nav/clients.gif);}
+li.clients a:hover {background-image: url(http://msolaw.com/images/nav/clients-over.gif);}
+li.contactUs, li.contactUs a {height: 36px; background-image: url(http://msolaw.com/images/nav/contact-us.gif);}
+li.contactUs a:hover {background-image: url(http://msolaw.com/images/nav/contact-us-over.gif);}
+*/
+
+#subNav {float: left; width: 130px; padding: 27px 0px 0px 0px;}
+#subNav ul {margin: 0px; padding: 0px 10px 0px 10px; list-style-type: none; font-size: 11px; line-height: normal;}
+#subNav ul li {padding: 0px 0px 10px 0px;}
+#subNav ul li a {color: #32406b;}
+#subNav ul li a:hover {color: #d55d45;}
+
+#address {display: block; padding: 40px 0px 0px 0px;}
+
+body.bios #subNav {padding-top: 65px;}
