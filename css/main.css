@@ -285,9 +285,13 @@ Primary use:
 }
 
 .bg-img1 {
-    background-position: center;
+    background-color: #fff;
+    background-position: top;
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
+    background-size: 100% 80%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 
@@ -345,6 +349,11 @@ Primary use:
 
 .wrappic1 {
     display: block;
+}
+
+.flexcenter {
+    display: flex;
+    justify-content: space-around;
 }
 
 .wrappic1 img {
